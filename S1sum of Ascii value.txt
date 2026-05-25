@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        int sum=0;
+        for(char c='A';c<='Z';c++){
+            System.out.print((int)c+" ");
+            sum=sum+c;
+        }
+        System.out.print("Sum:"+sum);
+    }
+}
